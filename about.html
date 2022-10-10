@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+   
+    <style>
+       @font-face {
+    font-family: lato;
+    src: url(photos/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    font-weight: black;
+    src: url(photos/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: latoreg;
+    font-weight: black;
+    src: url(photos/Lato/Lato-Regular.ttf);
+}
+
+body{
+    background-image:url(photos/full-bloom.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+
+nav{
+    
+    background: black;
+    overflow: hidden;
+}
+
+nav.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+}
+
+nav b{
+    display: block;
+    color: rgba(220, 20, 60, 1);
+    font-family: 'lato';
+    font-weight: black;
+    font-size: 30px;
+    padding: 14px 20px;
+    float: left;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+    padding-right: 24px; 
+    float: left;
+}
+
+nav a:hover{
+    color: tomato;
+}
+
+section{
+    text-align: center;
+    color: rgb(134, 41, 221);
+    padding-top: 40px;
+    height: 100vh;
+}
+
+section h1{
+    font-size: 40px;    
+    
+}
+
+
+footer{
+    background: black;
+    overflow: hidden;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+footer a:hover{
+    color: tomato;
+}
+
+.copyright{
+   float: right;
+   display: block;
+   color: white;
+   text-decoration: none;
+   padding: 14px 20px;
+}
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0rem);
+    padding-left: var(--bs-gutter-x, 0rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.explain1{
+  margin-top: 80px;
+  margin-left: 15px;
+  font-size: 40px;
+  font-family: "lato";
+  font-weight: bolder;
+  color:  black;
+}
+
+.explain2{
+margin-top: 80px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 40px;
+  font-family: "lato";
+  font-weight: bold;
+  color: rgba(220, 20, 60, 1);
+}
+
+.explain3{
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 25px;
+  font-family: "latoreg";
+}
+
+.cont{
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 25px;
+  font-family: "latoreg";
+  text-decoration: none;
+  color: black;
+  margin-left: 18px;
+}
+.cont:hover{
+    color: rgba(220, 20, 60, 1);
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sticky">
+            
+            <b>Dietbook</b>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a> 
+            <a href="login.html">Login/Signup</a>
+        </nav>
+        <main>
+            <div class="explain1">What exactly is <span class="explain2">Dietbook</span>?
+            </div>
+             <div>
+                <p class="explain3">Dietbook is a diet recommendation, and record keeping site. This site has been developed by students of Xavier Institute of Engineering, Mahim; as the mini-project for group eight of secomps. We aim to considerably reduce the time and efforts required in tailoring a user-specific diet, according to their fitness goals, for the betterment of health.
+            </p>
+             </div>
+            <div class="explain1">How does it work?</div>   
+                <div>
+                    <p class="explain3">We take a look at your physical details and dietary goals, and then prepare a meal plan for you according to your dietary preferences. That's not it! We keep a record of your physical details (which remain private) so that you can come back and update them, and receive a new diet. With our system, your good health is assured!
+                </p>
+            </div>
+            <div class="explain1">Got more questions?</div>   
+            <div>
+                <p><a href="contact.html" class="cont">Contact us!</a>
+            </p>
+        </div>
+            
+        </main>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <footer>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <c class="copyright">&copy; 2022 | Dietbook</a>
+        </footer>
+    </div>
+    </body>
+    </html>   
+</body>
+</html>
